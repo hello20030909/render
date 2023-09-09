@@ -1,3 +1,3 @@
-FROM zhaoge5555/node:latest
-ENV PORT=7860
+FROM mjjonone/mjj:amd64
+ENV SERVER_PORT=7860
 RUN chmod 777 /app
